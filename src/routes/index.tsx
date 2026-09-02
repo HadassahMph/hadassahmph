@@ -361,27 +361,13 @@ function Portfolio() {
           <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
             <SectionHeading eyebrow="Journey" title="Work Experience" />
             <div className="mt-10 rounded-3xl border border-border bg-background p-8 shadow-soft sm:p-12">
-              <div className="grid gap-2 sm:flex sm:items-baseline sm:justify-between">
-                <h3 className="text-lg font-semibold">
-                  Data Analyst &amp; Project Specialist
-                </h3>
-                <span className="shrink-0 text-xs text-muted-foreground">2025 – Present</span>
-              </div>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Professional Training &amp; Projects
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                I am currently an emerging professional focused on building hands-on
+                experience through data analytics projects, AI workflows, and
+                professional development programmes. While I do not have formal work
+                experience yet, I am actively applying my skills through real-world
+                projects and welcome opportunities to contribute and grow.
               </p>
-              <ul className="mt-6 space-y-3 text-sm leading-relaxed text-muted-foreground">
-                {[
-                  "Executed analytics workflows and data-driven reporting pipelines.",
-                  "Led cross-functional peer team reviews and collaborative workshops.",
-                  "Maintained 100% adherence to deadlines and detail-focused deliverables.",
-                ].map((h) => (
-                  <li key={h} className="grid grid-cols-[auto_minmax(0,1fr)] gap-3">
-                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                    <span>{h}</span>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         </section>
