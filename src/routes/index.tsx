@@ -11,7 +11,7 @@ import {
   Linkedin,
   ArrowUpRight,
 } from "lucide-react";
-import portrait from "@/assets/portrait.jpg";
+import portraitAsset from "@/assets/hadassah-portrait.jpg.asset.json";
 import { TaskOrganizer } from "@/components/TaskOrganizer";
 
 export const Route = createFileRoute("/")({
@@ -104,13 +104,33 @@ function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) 
 const SKILLS = [
   { title: "Data & Technical", items: ["Data Analytics", "Problem Solving", "Data Interpretation", "Reporting"] },
   { title: "Productivity Tools", items: ["Microsoft Excel (Advanced)", "Google Workspace (Docs, Sheets)"] },
-  { title: "Collaboration Apps", items: ["Microsoft Teams", "Zoom", "Slack"] },
+  { title: "Collaboration Apps", items: ["Microsoft Teams", "Zoom"] },
+  {
+    title: "AI & Machine Learning",
+    items: [
+      "AI Workflows",
+      "Artificial Intelligence",
+      "Generative AI",
+      "Model Training",
+      "Responsible AI",
+      "AI Enablement",
+      "AI Literacy",
+      "AI/ML",
+      "Human Machine Interfaces",
+      "Prompt Engineering",
+      "Large Language Modeling",
+    ],
+  },
+  {
+    title: "Verified Certifications",
+    items: ["AI Foundations", "Data Analytics", "Professional Foundations"],
+  },
 ];
 
 const STRENGTHS = [
-  { label: "Time Management", value: 100 },
-  { label: "Teamwork", value: 100 },
-  { label: "Leadership & Execution", value: 100 },
+  { label: "Time Management", value: 90 },
+  { label: "Teamwork", value: 88 },
+  { label: "Leadership & Execution", value: 85 },
 ];
 
 const PROJECTS = [
@@ -170,11 +190,12 @@ function Portfolio() {
                 👋 Welcome to my portfolio.
               </span>
               <h1 className="mt-6 text-4xl font-semibold leading-[1.08] tracking-tight sm:text-6xl">
-                Hi, I&apos;m Hadassah Mphohoni
+                Hadassah Mphohoni
               </h1>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-                Data Analyst &amp; Professional Foundation Specialist dedicated to turning insights
-                into actionable results with precision and clarity.
+                I am an emerging data analyst &amp; AI practitioner — transforming raw data into
+                actionable insights and leveraging generative AI workflows to solve real-world
+                problems.
               </p>
               <div className="mt-9 flex flex-wrap gap-3">
                 <a
@@ -197,7 +218,7 @@ function Portfolio() {
             <div className="flex justify-center lg:justify-end">
               <div className="rounded-full bg-card p-3 shadow-soft ring-1 ring-border">
                 <img
-                  src={portrait}
+                  src={portraitAsset.url}
                   alt="Portrait of Hadassah Mphohoni"
                   width={1024}
                   height={1024}
