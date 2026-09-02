@@ -169,6 +169,27 @@ const EDUCATION = [
     focus: "Professional Development Skills for the Digital Age.",
   },
   {
+    title: "Google AI Essentials",
+    issuer: "Google",
+    meta: "Certificate ID: — · 2026",
+    focus:
+      "Foundational course on using generative AI tools effectively, covering prompting, responsible use, and applied AI workflows.",
+  },
+  {
+    title: "Introduction to Generative AI",
+    issuer: "Google",
+    meta: "Certificate ID: — · 2026",
+    focus:
+      "Introductory Google course on generative AI concepts, large language models, and responsible AI principles.",
+  },
+  {
+    title: "Generative AI & Prompt Engineering",
+    issuer: "Google",
+    meta: "Certificate ID: — · 2026",
+    focus:
+      "Prompt design, AI literacy, and applied generative AI workflows for real-world problem solving.",
+  },
+  {
     title: "High School Matric",
     issuer: "Lethulwazi Comprehensive School",
     meta: "2020",
