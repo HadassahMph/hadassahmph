@@ -222,7 +222,7 @@ function Portfolio() {
                   alt="Portrait of Hadassah Mphohoni"
                   width={1024}
                   height={1024}
-                  className="h-64 w-64 rounded-full object-cover sm:h-80 sm:w-80 lg:h-[26rem] lg:w-[26rem]"
+                  className="h-64 w-64 rounded-full object-cover object-[50%_30%] sm:h-80 sm:w-80 lg:h-[26rem] lg:w-[26rem]"
                 />
               </div>
             </div>
