@@ -12,7 +12,6 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 import portraitAsset from "@/assets/hadassah-portrait.jpg.asset.json";
-import { TaskOrganizer } from "@/components/TaskOrganizer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
