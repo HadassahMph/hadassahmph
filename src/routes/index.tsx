@@ -345,19 +345,6 @@ function Portfolio() {
           </div>
         </section>
 
-        {/* TASKS */}
-        <section id="tasks" className="bg-ivory">
-          <div className="mx-auto max-w-4xl px-5 py-20 sm:px-8">
-            <SectionHeading eyebrow="Interactive" title="Task & Project Organizer" />
-            <p className="mt-4 max-w-2xl text-sm text-muted-foreground">
-              A working productivity tool — your tasks are saved in this browser.
-            </p>
-            <div className="mt-10">
-              <TaskOrganizer />
-            </div>
-          </div>
-        </section>
-
         {/* EDUCATION */}
         <section id="education" className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
           <SectionHeading eyebrow="Credentials" title="Education & Certifications" />
