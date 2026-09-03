@@ -413,7 +413,7 @@ function Portfolio() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/hadassah-mphohoni-83b43542b"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
