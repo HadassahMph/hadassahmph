@@ -12,7 +12,6 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 import portraitAsset from "@/assets/hadassah-portrait.jpg.asset.json";
-import { TaskOrganizer } from "@/components/TaskOrganizer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -39,7 +38,6 @@ const NAV = [
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
-  { id: "tasks", label: "Tasks" },
   { id: "education", label: "Education" },
   { id: "experience", label: "Experience" },
   { id: "contact", label: "Contact" },
@@ -343,19 +341,6 @@ function Portfolio() {
                 </a>
               </article>
             ))}
-          </div>
-        </section>
-
-        {/* TASKS */}
-        <section id="tasks" className="bg-ivory">
-          <div className="mx-auto max-w-4xl px-5 py-20 sm:px-8">
-            <SectionHeading eyebrow="Interactive" title="Task & Project Organizer" />
-            <p className="mt-4 max-w-2xl text-sm text-muted-foreground">
-              A working productivity tool — your tasks are saved in this browser.
-            </p>
-            <div className="mt-10">
-              <TaskOrganizer />
-            </div>
           </div>
         </section>
 
